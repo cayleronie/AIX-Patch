@@ -5,4 +5,4 @@
    - name: Test Connectivity
      ansible.netcommon.net_ping:
        dest: "ip"
-	   count: 10
+       count: 10
