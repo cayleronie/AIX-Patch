@@ -1,0 +1,8 @@
+---
+- name: Ping AIX Server
+  hosts: AIX Server
+  tasks:
+   - name: Test Connectivity
+     ansible.netcommon.net_ping:
+       dest: "ip"
+	   count: 10
